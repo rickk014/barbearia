@@ -2,18 +2,18 @@ h1{
     color: orange;
     font-size: 50px;
     text-align: center;
-    background-color: rgba(33,52,32,);
+    background-color: rgb(67, 228, 58);
 }
 h2{
     color: blue;
     text-align: center;
 }
 body{
-    background-color: rgb(9,20,120);
+    background-color: rgb(44, 64, 236);
 }
 body{
-    background-color: rgba(50,55,32,);
+    background-color: rgb(220, 240, 149);
 }
 img{
-    
+    width: 100px;
 }
