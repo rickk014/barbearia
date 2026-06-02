@@ -9,7 +9,7 @@ h2{
     text-align: center;
 }
 body{
-    background-color: rgb(44, 64, 236);
+    background-image: url(https://media.tenor.com/v9E1MSawA4kAAAAM/monkey-bloons-td6.gif)
 }
 body{
     background-color: rgb(220, 240, 149);
@@ -17,3 +17,16 @@ body{
 img{
     width: 100px;
 }
+footer{
+    background-color: chartreuse;
+}
+.imagem{
+    text-align: center;
+    background-color: blue;
+    margin: auto;
+    border-style: dotted;
+    border-radius: 50px;
+    border-bottom: 50px;
+    border-color: brown;
+}
+
