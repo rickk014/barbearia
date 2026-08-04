@@ -1,11 +1,11 @@
 h1{
-    color: orange;
+    color: rgb(255, 238, 0);
     font-size: 50px;
     text-align: center;
-    background-color: rgb(67, 228, 58);
+    background-color: rgb(38, 173, 190);
 }
 h2{
-    color: blue;
+    color: brown;
     text-align: center;
 }
 body{
@@ -18,7 +18,7 @@ img{
     width: 100px;
 }
 footer{
-    background-color: chartreuse;
+    background-color: rgb(38, 173, 190);
 }
 .imagem{
     text-align: center;

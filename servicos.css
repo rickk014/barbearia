@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(145, 89, 197);
+    background-color: rgb(129, 18, 233);
     padding: 20px 0;
 }
 nav{
@@ -21,9 +21,26 @@ nav a{
 .caixa{
     position: relative;
     width: 940px;
-    height: 175px;
+    height: 171px;
     margin: 0 auto;
 }
-h1 img {
+h1 img{
     width: 170px;
+}
+.servicos{
+    width: 940px; /*beijo na boca (mesmo valor do width na caixa*/
+    margin: auto;
+    padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
+    text-align: start;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.servicos img{
+    width: 200px;
 }
