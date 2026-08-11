@@ -26,6 +26,9 @@ nav a{
 }
 h1 img{
     width: 170px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 .servicos{
     width: 940px; /*beijo na boca (mesmo valor do width na caixa*/
@@ -40,7 +43,47 @@ h1 img{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .servicos img{
     width: 200px;
+}
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao{
+    font-size: 18px;
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+   color: orange;
+   text-decoration: underline;
+}
+.servicos li:hover {
+    border-color: orangered;
+}
+.servicos li:active {
+    border-color: chartreuse;
+}
+.servicos li:hover h2 {
+    font-size: 34px;
+}
+footer{
+    text-align: center;
+    background-color: rgb(129, 18, 233);
+    padding: 100px 0;
+}
+footer img{
+    width: 100px;;
+}
+.copyright {
+    color: black;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
