@@ -62,14 +62,14 @@ h1 img{
     margin-top: 10px;
 }
 nav a:hover{
-   color: orange;
+   color: brown;
    text-decoration: underline;
 }
 .servicos li:hover {
-    border-color: orangered;
+    border-color: rgb(129, 18, 233);
 }
 .servicos li:active {
-    border-color: chartreuse;
+    border-color: brown;
 }
 .servicos li:hover h2 {
     font-size: 34px;
@@ -80,10 +80,10 @@ footer{
     padding: 100px 0;
 }
 footer img{
-    width: 100px;;
+    width: 200px;;
 }
 .copyright {
     color: black;
-    font-size: 13px;
+    font-size: 20px;
     margin: 20px 0 0;
 }
