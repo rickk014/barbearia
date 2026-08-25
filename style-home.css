@@ -1,0 +1,32 @@
+h1{
+    color: rgb(255, 238, 0);
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(38, 173, 190);
+}
+h2{
+    color: brown;
+    text-align: center;
+}
+body{
+    background-image: url(https://media.tenor.com/v9E1MSawA4kAAAAM/monkey-bloons-td6.gif)
+}
+body{
+    background-color: rgb(220, 240, 149);
+}
+img{
+    width: 100px;
+}
+footer{
+    background-color: rgb(38, 173, 190);
+}
+.imagem{
+    text-align: center;
+    background-color: blue;
+    margin: auto;
+    border-style: dotted;
+    border-radius: 50px;
+    border-bottom: 50px;
+    border-color: brown;
+}
+
