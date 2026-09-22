@@ -25,6 +25,7 @@
     </header>
     <main>
        <form>
+
            <label for="nomesobrenome">Nome e sobrenome</label>
            <input type="text" id="nomesobrenome" class="input-padrao">
 
@@ -35,9 +36,45 @@
            <input type="text" id="telefone" class="input-padrao">
 
            <label for="mensagem">Mensagem</label>
-           <textarea cols="70" rows="10" id="mensagem" class="input-padrao">                                      </textarea>
+           <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
-           <input type="submit" value="Enviar formulário">
+        <div>
+
+            <p>Como prefere o nosso contato?</p>
+            <label for="radio-email">
+                <input type="radio" name="contato" value="email" id="radio-email">
+                Email
+            </label>
+
+            <label for="radio-telefone">
+                <input type="radio" name="contato" value="email" id="radio-email">
+                Telefone
+            </label>
+
+            <label for="radio-whatsapp">
+                <input type="radio" name="contato" value="email" id="radio-email">
+                Whatsapp
+            </label>
+
+        </div>
+
+        <div>
+            <p>Qual horário prefere ser atendido?</p>
+            <select>
+
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+
+            </select>
+        </div>
+
+        <label class="checkbox">
+            <input type="checkbox">
+            Gostaria de receber nossas novidades por email?
+        </label>
+
+           <input type="submit" value="Enviar formulário" class="enviar">
     <footer>
         <img src="james bloons (200 x 200 px).png">
         <p class="copyright">Copyright André & Henrique - 2026</p>
