@@ -1,33 +1,114 @@
-h1{
-    color: rgb(255, 238, 0);
-    font-size: 50px;
-    text-align: center;
-    background-color: rgb(38, 173, 190);
+body{ background-image: url(https://media.tenor.com/v9E1MSawA4kAAAAM/monkey-bloons-td6.gif) }
+header{
+    background-color: rgb(129, 18, 233);
+    padding: 15px 0;
 }
-h2{
-    color: brown;
-    text-align: center;
+nav{
+    position: absolute;
+    top: 40px;
+    right: 0;
 }
-body{
-    background-image: url(https://media.tenor.com/v9E1MSawA4kAAAAM/monkey-bloons-td6.gif)
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
-body{
-    background-color: rgb(220, 240, 149);
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
 }
-img{
-    width: 100px;
+.caixa{
+    position: relative;
+    width: 940px;
+    height: 171px;
+    margin: 0 auto;
+}
+h1 img{
+    width: 170px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.servicos{
+    width: 940px; /*beijo na boca (mesmo valor do width na caixa*/
+    margin: auto;
+    padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
+    text-align: start;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.servicos img{
+    width: 200px;
+}
+.servicos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.descricao{
+    font-size: 18px;
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+   color: brown;
+   text-decoration: underline;
+}
+.servicos li:hover {
+    border-color: rgb(129, 18, 233);
+}
+.servicos li:active {
+    border-color: brown
+}
+.servicos li:hover h2 {
+    font-size: 34px;
 }
 footer{
-    background-color: rgb(38, 173, 190);
-    width: 400px;
-}
-.imagem{
     text-align: center;
-    background-color: blue;
-    margin: auto;
-    border-style: dotted;
-    border-radius: 50px;
-    border-bottom: 50px;
-    border-color: brown;
+    background-color: rgb(129, 18, 233);
+    padding: 100px 0;
 }
-
+footer img{
+    width: 200px;
+}
+.copyright {
+    color: black;
+    font-size: 20px;
+    margin: 20px 0 0;
+}
+main{
+    width: 950px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.texto{
+    font-size:larger;
+}
