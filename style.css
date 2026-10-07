@@ -1,4 +1,6 @@
-body{ background-image: url(https://media.tenor.com/v9E1MSawA4kAAAAM/monkey-bloons-td6.gif) }
+body{ background-image: url(https://media.tenor.com/v9E1MSawA4kAAAAM/monkey-bloons-td6.gif) 
+
+}
 header{
     background-color: rgb(129, 18, 233);
     padding: 15px 0;
@@ -78,7 +80,7 @@ nav a:hover{
 footer{
     text-align: center;
     background-color: rgb(129, 18, 233);
-    padding: 100px 0;
+    padding: 10px 0;
 }
 footer img{
     width: 200px;
@@ -111,4 +113,15 @@ form label, form p{
 }
 .texto{
     font-size:larger;
+    text-align: center;
+}
+.Kamogawa{
+    text-align: center;
+    padding: 100px;
+}
+.video{
+    text-align: right;
+}
+.mapa{
+    text-align: left;
 }
